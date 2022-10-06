@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace ResistanceCalculation
 {
+    // programming is cool!
     public partial class Mainform : Form
     {
         public Mainform()
