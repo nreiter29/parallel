@@ -53,6 +53,7 @@
       <DependentUpon>Mainform.cs</DependentUpon>
     </Compile>
     <Compile Include="ICalculation.cs" />
+    <Compile Include="ParallelCircuit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeriesCircuit.cs" />

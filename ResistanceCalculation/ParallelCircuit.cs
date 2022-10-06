@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ResistanceCalculation {
+    public class ParallelCircuit {
+
+        public double ResistorOne { get; set; }
+        public double ResistorTwo { get; set; }
+
+        public double GetTotalResistance() {
+            return (ResistorOne * ResistorTwo) / (ResistorOne + ResistorTwo);
+        }
+
+    }
+}
