@@ -26,7 +26,13 @@ namespace ResistanceCalculation
                 ResistorTwo = double.Parse(tbxResistorTwo.Text)
             };
 
+            ParallelCircuit parallelCircuit = new ParallelCircuit() {
+                ResistorOne = double.Parse(tbxResistorOne.Text),
+                ResistorTwo = double.Parse(tbxResistorTwo.Text)
+            };
+
             lblTotalSeries.Text = seriesCircuit.GetTotalResistance().ToString() + " Ω";
+            lblTotalParallel.Text = parallelCircuit.GetTotalResistance().ToString() + " Ω";
 
         }
     }
